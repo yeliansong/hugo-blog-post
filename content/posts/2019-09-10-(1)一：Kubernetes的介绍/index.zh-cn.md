@@ -1,4 +1,5 @@
 ---
+
 title: 一：Kubernetes的介绍
 subtitle: Kubernetes in action 读书笔记
 date: 2019-09-10T21:56:51+08:00
@@ -6,22 +7,24 @@ lastmod: 2021-03-27T21:56:51+08:00
 draft: false
 author: Liansong
 authorLink: ""
-description: ""
+description: "K8S学习的读书笔记"
 
-tags: [tag1, tag2]
-categories: [k8s]
+tags: [K8S, 微服务]
+categories: [K8S-学习笔记]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: ""
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
 
 toc:
   enable: true
 math:
   enable: false
-lightgallery: false
+lightgallery: true
 license: ""
 ---
 
@@ -45,11 +48,9 @@ license: ""
 
 容器技术其实就是Linux的隔离技术。通过什么来进行隔离呢？ 命名空间和CGROUP。 命名空间是用来隔离不同的进程，CGROUP是用来隔离资源。就是通过这个能够使一个宿主机可以运行多个不同的应用程序。同一个宿主机上的两个应用程序也可以共享文件，如果共用同一个基本镜像，就是共用资源，但是 这一层文件是只读的，如果重写写入，是在基本镜像基础上写入一层文件，容器是用的联合文件系统。
 
-![1568008027146](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4b89noj30f708qq5w.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur4b89noj30f708qq5w.jpg" style="zoom:200%;" />
 
-![1568008075823](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur7hcbvdj309f0h5n02.jpg)
-
-
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur7hcbvdj309f0h5n02.jpg" style="zoom:200%;" />
 
 ### 4. 容器的移植
 
@@ -61,7 +62,7 @@ license: ""
 
 Google搞出这个东西，是为了解决Google成千上万服务器的管理部署问题。之后容器技术火后，Kubernetes对容器的支持，所以说也可以说是Kubernetes成就了Docker。相符相承吧。Kubernetes的设计宗旨是将底层基础设施进行抽象化，通过给你提供一个主节点，来管理成千上万的你的服务的运行节点。你不用 关心你的服务运行节点的部署。
 
-![1568008613880](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4cniqdj30eg05lac3.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur4cniqdj30eg05lac3.jpg" style="zoom:150%;" />
 
 
 
@@ -71,4 +72,4 @@ Google搞出这个东西，是为了解决Google成千上万服务器的管理�
 
 工作节点： kubelet (与API进行通信，管理容器)， kube-proxy(负责网络流量均衡)
 
-![1568008692574](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur7idxf5j30ey05xgo0.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur7idxf5j30ey05xgo0.jpg" style="zoom:150%;" />
