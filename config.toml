@@ -1,4 +1,4 @@
-baseURL = "https://zz2summer.github.io"
+baseURL = "https://yeliansong.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -541,7 +541,7 @@ enableEmoji = true
     twemoji = false
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
