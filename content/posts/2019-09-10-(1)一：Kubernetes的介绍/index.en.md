@@ -1,5 +1,5 @@
 ---
-title: One：Introduction to Kubernetes
+title: 一、Introduction to Kubernetes
 subtitle: Kubernetes in action reading notes
 date: 2019-09-10T21:56:51+08:00
 lastmod: 2019-09-10T21:56:51+08:00

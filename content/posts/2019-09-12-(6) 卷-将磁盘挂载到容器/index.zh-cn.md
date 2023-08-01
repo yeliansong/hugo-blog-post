@@ -1,15 +1,30 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      六：卷-将磁盘挂载到容器 	# 标题
-subtitle:   Kubernetes in action 读书笔记 #副标题
-date:       2019-09-12 				# 时间
-author:     Liansong 				# 作者
-header-img: img/post-bg-universe.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
-    - 读书笔记
-    - tech
-    - k8s
+title: 六、卷-将磁盘挂载到容器 
+subtitle: Kubernetes in action 读书笔记
+date: 2019-10-03T14:11:51+08:00
+lastmod: 2019-10-03T14:11:51+08:00
+draft: false
+author: Liansong
+authorLink: ""
+description: "K8S学习的读书笔记"
+
+tags: [K8S, 微服务]
+categories: [K8S-学习笔记]
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
+
+toc:
+  enable: true
+math:
+  enable: false
+lightgallery: true
+license: ""
 ---
 
 
@@ -20,11 +35,11 @@ tags:								#标签
 
 卷是用来解决什么问题呢？POD其实相当于一个逻辑主机，每个POD可能有多个容器，这些容器呢，我们知道其实就相当于逻辑主机的进程，这些进程可以共享CPU，RAM，网络等，但是呢，每个容器是由自己的文件系统的，这些系统是相互隔离的，有没办法让这些容器共享文件系统呢？你想这个场景，比如POD里的一个容器挂了，然后重新起一个，但是起的这个呢依旧用之前那个的文件系统资源，怎么解决这个问题，你必须要用卷吗，相当于用共享的这个文件系统。
 
-![1568258532361](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4eedbqdj30hd0fidkk.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6x4eedbqdj30hd0fidkk.jpg" style="zoom:200%;" />
 
 看这个，一个POD里面跑了三个容器，每个都是独立的文件系统，你说这个能跑起来吗？我来介绍下这三个容器，webserver， 就是web的入口，content用来放网页信息，log来存放日志，这三个没有共享文件系统，访问时web容器都找不到网页，日志也存放不了。来，看看改进版本。
 
-![1568258703418](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4egqjntj30f70fngs5.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6x4egqjntj30f70fngs5.jpg" style="zoom:200%;" />
 
 共享卷之后，哈哈哈，能跑了，爽不爽。
 
@@ -36,11 +51,11 @@ tags:								#标签
 
 - [ ] emptyDir
 
-	> 也是最简单的卷类型了，也是其他卷的基础，很好理解了，就是空卷。它的生命周期是和POD的生命周期一致的。这个是在POD启动时，会初始化一块空白的空间来存储内容。![1568260293628](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4ein3a0j30l10d078g.jpg)
+	> 也是最简单的卷类型了，也是其他卷的基础，很好理解了，就是空卷。它的生命周期是和POD的生命周期一致的。这个是在POD启动时，会初始化一块空白的空间来存储内容。<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6x4ein3a0j30l10d078g.jpg" style="zoom:200%;" />
 	>
 	> 这个就是例子了，每一个image可以设置卷的路径，然后在volume节点上可以设置卷的类型。
 	>
-	> ![1568260467410](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4ejucirj30ih02zdg6.jpg)
+	> <img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6x4ejucirj30ih02zdg6.jpg" style="zoom:200%;" />
 	>
 	> 
 	>
@@ -52,13 +67,9 @@ tags:								#标签
 
 	> 这个卷也是特别有意思，就是为git仓库设计的，
 	>
-	> ![1568260737688](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4elernrj30kz09sn1k.jpg)
-	>
-	> 
-	>
 	> 这个就是模型图了，POD启动时，会把远程的git 仓库拉到这个volume中，但是这个是不能实时同步的，也理解了，不会有这么先进的。 GIT 卷的原形是empty 卷，所以，生命周期也是和POD保持一致。
 	>
-	> ![1568261085518](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4em9kzqj30lq0abtba.jpg)
+	> ![1568261085518](<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6x4elernrj30kz09sn1k.jpg" style="zoom:200%;" />
 
 
 
@@ -66,7 +77,7 @@ tags:								#标签
 
 	> POD 之间能否共享文件呢，能的，这就是HostPath 卷。
 	>
-	> ![1568269923933](https://tva1.sinaimg.cn/large/006y8mN6gy1g6x4eo1yr8j30kt0abdkv.jpg)
+	> <img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6x4eo1yr8j30kt0abdkv.jpg" style="zoom:200%;" />
 	>
 	> 
 	>

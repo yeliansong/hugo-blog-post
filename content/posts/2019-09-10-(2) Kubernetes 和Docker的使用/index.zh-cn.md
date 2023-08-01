@@ -1,16 +1,30 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      二：Kubernetes 和 Docker的使用 				# 标题
-subtitle:   Kubernetes in action 读书笔记 #副标题
-date:       2019-09-10 				# 时间
-author:     Liansong 						# 作者
-header-img: img/post-bg-rwd.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
-    - 读书笔记
-    - tech
-    - k8s
-    - docker
+title: 二、Kubernetes 和 Docker的使用
+subtitle: Kubernetes in action 读书笔记
+date: 2019-09-11T19:16:51+08:00
+lastmod: 2019-09-11T19:16:51+08:00
+draft: false
+author: Liansong
+authorLink: ""
+description: "K8S学习的读书笔记"
+
+tags: [K8S, 微服务]
+categories: [K8S-学习笔记]
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
+
+toc:
+  enable: true
+math:
+  enable: false
+lightgallery: true
+license: ""
 ---
 
 
@@ -18,7 +32,7 @@ tags:								#标签
 
 容器的镜像就是打包编译容器后的一个文件，打包镜像是依赖Dockerfile文件，From行定义了镜像的起始内容，也就是构建的基础镜像，镜像的构建过程是将整个目录的文件上传到Docker守护进程中，Docker会先从基础镜像仓库中拉取基础镜像，然后镜像的打包是一个分层的结构，基础镜像作为一层，然后每一条命令会作为一个新的分层，一层一层叠加，整个就是一个联合文件系统。
 
-![1568011079301](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4dnruaj30dt07w75q.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur4dnruaj30dt07w75q.jpg" style="zoom: 200%;" />
 
 
 容器的理解， 容器其实就是镜像运行的一个实例。容器是依赖于主机的操作系统运行的，所以就会有一个问题，比如在RedHat宿主机上打包的一个镜像，这个镜像能否在ubuntu上运行呢？不一定，要看你是否有用到宿主机特有的， 但是你在另外一个宿主机上运行没有的东西。镜像运行出的容器，相当于宿主机的一个进程。每个容器间的文件系统也是独立的。
@@ -33,7 +47,7 @@ tags:								#标签
 
 多节点的Kubernetes集群概览：
 
-![1568012876300](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4f4tsyj30g00b841m.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur4f4tsyj30g00b841m.jpg" style="zoom:150%;" />
 
 
 
@@ -47,7 +61,7 @@ POD 是Kubernetes 控制的最小单位，Kubernetes不会关心容器的调度�
 
 我的理解阿，ReplicationControler 是用来管理POD的水平伸缩，能够确保规定的POD个数能按照设置的正常运行。
 
-![1568018641181](https://tva1.sinaimg.cn/large/006y8mN6gy1g6ur4gdgi7j30g607z0um.jpg)
+<img src="https://cdn.jsdelivr.net/gh/yeliansong/github-blog-PIC/blog-images006y8mN6gy1g6ur4gdgi7j30g607z0um.jpg" style="zoom:200%;" />
 
 可以看下这张图，外部访问过来后，只会映射到一个内部ip，然后到底调用的哪个POD我们是不用关心的，里面的每个POD都是独立的ip。ReplicationControler来控制副本的个数。
 
@@ -63,8 +77,5 @@ kubectl get rc,查看扩容。kubectl get pods -o wide,查看POD的ip和运行�
 
 
 
-<img src="https://raw.githubusercontent.com/yeliansong/github-blog-PIC/master/blog-imagesimage-20230727114920227.png" alt="image-20230727114920227" style="zoom:400%;" />
 
 
-
-<img src="https://p.ipic.vip/fhz26u.png" style="zoom:200%;" />

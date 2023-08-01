@@ -1,6 +1,6 @@
 ---
 
-title: 一：Kubernetes的介绍
+title: 一、Kubernetes的介绍
 subtitle: Kubernetes in action 读书笔记
 date: 2019-09-10T21:56:51+08:00
 lastmod: 2019-09-10T21:56:51+08:00
