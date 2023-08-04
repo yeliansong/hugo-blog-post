@@ -1,8 +1,8 @@
 ---
 title: 健康检查
 subtitle: K8S学习笔记
-date: 2020-01-20T09:11:51+08:00
-lastmod: 2020-01-20T09:11:51+08:00
+date: 2020-02-28T09:11:51+08:00
+lastmod: 2020-02-28T09:11:51+08:00
 draft: false
 author: Liansong
 authorLink: ""
