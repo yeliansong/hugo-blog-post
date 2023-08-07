@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "证书荣誉"
 
-tags: [腾讯云证书、技能证书]
+tags: [腾讯云证书,技能证书]
 categories: [技能证书]
 
 hiddenFromHomePage: false

@@ -67,14 +67,14 @@ enableEmoji = true
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
+      #[[languages.en.menu.main]]
+      # identifier = "documentation"
+      #  pre = ""
+      #  post = ""
+      #  name = "Docs"
+      #  url = "/categories/documentation/"
+      #  title = ""
+      #  weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -84,13 +84,13 @@ enableEmoji = true
         title = ""
         weight = 5
       [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
+        identifier = "Linkedin"
+        pre = "<i class='fab fa-linkedin-in fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-        weight = 6
+        url = "www.linkedin.com/in/liansongye"
+        title = "Linkedin"
+        weight = "6"
     [languages.en.params]
       # site description
       description = "About LoveIt Theme"
@@ -284,12 +284,12 @@ enableEmoji = true
         title = ""
         weight = 5
       [[languages.zh-cn.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
+        identifier = "Linkedin"
+        pre = "<i class='fab fa-linkedin-in fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/zz2summer"
-        title = "GitHub"
+        url = "www.linkedin.com/in/liansongye"
+        title = "Linkedin"
         weight = 6
     [languages.zh-cn.params]
       # 网站描述

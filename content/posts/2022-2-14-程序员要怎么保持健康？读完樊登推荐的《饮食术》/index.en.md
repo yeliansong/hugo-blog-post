@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "reading comprehension"
 
-tags: [Reading Arrangement、 Life Perception]
+tags: [Reading Arrangement,Life Perception]
 categories: [Life Perception]
 
 hiddenFromHomePage: false

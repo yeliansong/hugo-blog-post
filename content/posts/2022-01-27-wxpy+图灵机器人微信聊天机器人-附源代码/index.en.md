@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "python widget"
 
-tags: [Technology、Tools]
+tags: [Technology,Tools]
 categories: [Technology Classification]
 
 hiddenFromHomePage: false

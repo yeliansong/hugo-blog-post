@@ -1,15 +1,15 @@
 ---
 title: Nginx Practice 
-subtitle: 运维相关知识
+subtitle: Operation and Maintenance Related Knowledge
 date: 2021-05-13T11:14:00+08:00
 lastmod: 2021-05-13T11:14:00+08:00
 draft: false
 author: Liansong
 authorLink: ""
-description: "运维相关知识"
+description: "Operation and Maintenance Related Knowledge"
 
-tags: [运维、网络]
-categories: [运维相关知识]
+tags: [Operation and Maintenance、Network]
+categories: [Operation and Maintenance Related Knowledge]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

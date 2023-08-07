@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "日常运维经验"
 
-tags: [运维、经验梳理]
+tags: [运维,经验梳理]
 categories: [运维相关知识]
 
 hiddenFromHomePage: false

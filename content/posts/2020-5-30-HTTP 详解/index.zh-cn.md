@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "运维相关知识"
 
-tags: [运维、网络]
+tags: [运维,网络]
 categories: [运维相关知识]
 
 hiddenFromHomePage: false

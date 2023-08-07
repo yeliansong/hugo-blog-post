@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "运维经验"
 
-tags: [运维、操作系统]
+tags: [运维,操作系统]
 categories: [运维相关知识]
 
 hiddenFromHomePage: false

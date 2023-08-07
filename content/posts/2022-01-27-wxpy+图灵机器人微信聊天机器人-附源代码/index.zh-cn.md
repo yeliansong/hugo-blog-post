@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "python小工具"
 
-tags: [技术、小工具]
+tags: [技术,小工具]
 categories: [技术归类]
 
 hiddenFromHomePage: false

@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "Life perception"
 
-tags: [Life Perception、Housing]
+tags: [Life Perception,Housing]
 categories: [Life Perception]
 
 hiddenFromHomePage: false

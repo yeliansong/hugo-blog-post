@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "运维相关知识"
 
-tags: [运维、运维自动化]
+tags: [运维,运维自动化]
 categories: [运维相关知识]
 
 hiddenFromHomePage: false

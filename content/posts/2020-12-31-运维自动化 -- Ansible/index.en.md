@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "Operation and maintenance related knowledge"
 
-tags: [Operation and Maintenance, Operation and maintenance automation]
+tags: [Operation and Maintenance, Operation and Maintenance Automation]
 categories: [Operation Related Knowledge]
 
 hiddenFromHomePage: false

@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "读书感悟"
 
-tags: [读书整理、生活感悟]
+tags: [读书整理,生活感悟]
 categories: [生活感悟]
 
 hiddenFromHomePage: false

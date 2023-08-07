@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "生活感悟"
 
-tags: [生活感悟、住房]
+tags: [生活感悟,住房]
 categories: [生活感悟]
 
 hiddenFromHomePage: false

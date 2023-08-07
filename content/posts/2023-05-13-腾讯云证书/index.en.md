@@ -8,7 +8,7 @@ author: Liansong
 authorLink: ""
 description: "Certificate honor"
 
-tags: [Tencent Cloud Certificate、Skills Certificate]
+tags: [Tencent Cloud Certificate,Skills Certificate]
 categories: [Skills Certificate]
 
 hiddenFromHomePage: false
