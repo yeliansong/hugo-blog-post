@@ -145,9 +145,9 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Adhere to long-termism!"
           # whether to use typeit animation for subtitle
-          typeit = true
+          typeit = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -347,7 +347,7 @@ enableEmoji = true
           # 主页显示的网站副标题
           subtitle = "坚持做长期主义！"
           # 是否为副标题显示打字机动画
-          typeit = true
+          typeit = false
           # 是否显示社交账号
           social = true
           # 免责声明 (支持 HTML 格式)
@@ -464,7 +464,7 @@ enableEmoji = true
       name = "LIANSONG'S Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      pre = "<i class='fa-regular fa-face-laugh-beam'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
