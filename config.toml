@@ -88,7 +88,7 @@ enableEmoji = true
         pre = "<i class='fab fa-linkedin-in fa-fw'></i>"
         post = ""
         name = ""
-        url = "www.linkedin.com/in/liansongye"
+        url = "https://www.linkedin.com/in/liansongye"
         title = "Linkedin"
         weight = "6"
     [languages.en.params]
@@ -288,7 +288,7 @@ enableEmoji = true
         pre = "<i class='fab fa-linkedin-in fa-fw'></i>"
         post = ""
         name = ""
-        url = "www.linkedin.com/in/liansongye"
+        url = "https://www.linkedin.com/in/liansongye"
         title = "Linkedin"
         weight = 6
     [languages.zh-cn.params]
