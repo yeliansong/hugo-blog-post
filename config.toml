@@ -145,9 +145,9 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "Adhere to long-termism!"
+          subtitle = "Adhere to long-termism~"
           # whether to use typeit animation for subtitle
-          typeit = false
+          typeit = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -345,9 +345,9 @@ enableEmoji = true
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
-          subtitle = "坚持做长期主义！"
+          subtitle = "坚持做长期主义~"
           # 是否为副标题显示打字机动画
-          typeit = false
+          typeit = true
           # 是否显示社交账号
           social = true
           # 免责声明 (支持 HTML 格式)
@@ -359,8 +359,8 @@ enableEmoji = true
           paginate = 6
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
-        GitHub = "yeliansong"
-        Linkedin = "liansongye"
+        GitHub = "https://github.com/yeliansong"
+        Linkedin = "https://www.linkedin.com/in/liansongye"
         Twitter = ""
         Instagram = ""
         Facebook = ""
@@ -461,10 +461,10 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "LIANSONG'S Blog"
+      name = " LIANSONG'S Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='fa-regular fa-face-laugh-beam'></i>"
+      pre = "<i class='fas fa-user-astronaut'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -626,12 +626,12 @@ enableEmoji = true
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
-      Whatsapp = false
+      Linkedin = true
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
       HackerNews = false
-      Reddit = true
+      Reddit = false
       VK = false
       Buffer = false
       Xing = false
@@ -645,7 +645,7 @@ enableEmoji = true
       Renren = false
       Myspace = false
       Blogger = false
-      Baidu = true
+      Baidu = false
       Odnoklassniki = false
       Evernote = false
       Skype = false
@@ -723,10 +723,10 @@ enableEmoji = true
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
-        issueTerm = "pathname"
+        repo = "yeliansong/liansong_hugo-blog-talk"
+        issueTerm = ""
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
@@ -766,10 +766,10 @@ enableEmoji = true
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
     # 光标的字符 (支持 HTML 格式)
-    cursorChar = "|"
+    cursorChar = ""
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
-    duration = -1
+    duration = "-1"
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
