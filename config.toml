@@ -227,9 +227,6 @@ enableEmoji = true
         Weibo = ""
         Email = "ylsccnu@hotmail.com"
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
