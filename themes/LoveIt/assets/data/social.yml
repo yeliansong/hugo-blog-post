@@ -1,15 +1,15 @@
 # 001: Github
 github:
   Weight: 1
-  Prefix: https://github.com/
+  Prefix: 
   Title: GitHub
   Icon:
-    Class: fab fa-github-alt fa-fw
+    Class: fab fa-brands fa-github
 
 # 002: LinkedIn
 linkedin:
   Weight: 2
-  Prefix: https://linkedin.com/in/
+  Prefix: 
   Title: LinkedIn
   Icon:
     Class: fab fa-linkedin fa-fw
@@ -81,7 +81,7 @@ youtubecustom:
 # 011: YouTube Channel
 youtubechannel:
   Weight: 11
-  Prefix: https://www.youtube.com/channel/
+  Prefix: 
   Title: YouTube
   Icon:
     Class: fab fa-youtube fa-fw
@@ -488,14 +488,49 @@ matrix:
 # 062: bilibili
 bilibili:
   Weight: 62
-  Prefix: https://space.bilibili.com/
+  Prefix: 
   Title: bilibili
   Icon:
     Src: svg/icons/bilibili.svg
 
+# 065: bilibili
+xigua:
+  Weight: 63
+  Prefix: 
+  Title: xigua
+  Icon:
+    Src: svg/icons/xigua.svg
+
+# 065: douyin
+douyin:
+  Weight: 64
+  Prefix: 
+  Title: douyin
+  Icon:
+    Src: svg/icons/douyin.svg
+
+
+# 065: bilibili
+toutiao:
+  Weight: 65
+  Prefix: 
+  Title: toutiao
+  Icon:
+    Src: svg/icons/toutiao.svg
+
+
+# 065: bilibili
+juejin:
+  Weight: 66
+  Prefix: 
+  Title: juejin
+  Icon:
+    Src: svg/icons/juejin.svg
+
+
 # 063: Email
 email:
-  Weight: 63
+  Weight: 67
   Template: mailto:%v
   Title: Email
   Icon:
@@ -503,9 +538,21 @@ email:
 
 # 064: RSS
 rss:
-  Weight: 64
+  Weight: 68
   Url: /index.xml
   Title: RSS
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+
+
+
+
+
+
+
+
+
+
+

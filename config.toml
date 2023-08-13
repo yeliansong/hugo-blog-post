@@ -367,9 +367,14 @@ enableEmoji = true
         Telegram = ""
         Medium = ""
         Gitlab = ""
+        douyin = "https://www.douyin.com/"
+        toutiao = "https://www.toutiao.com/c/user/token/MS4wLjABAAAAiQNzwXGZR5Lgz2vkJpiKTn1ntKLBCSmsgnGaaH17X-M/?source=list&log_from=77c2e023ca8f9_1691937728627"
+        xigua = 'https://www.ixigua.com/home/63234784387?list_entrance=homepage'
+        juejin = 'https://juejin.cn/user/3659627025959112'
+        Bilibili = "https://space.bilibili.com/454920574"
         Youtubelegacy = ""
         Youtubecustom = ""
-        Youtubechannel = "index"
+        Youtubechannel = "https://www.youtube.com/@xiaoye_SG/featured"
         Tumblr = ""
         Quora = ""
         Keybase = ""
@@ -418,9 +423,8 @@ enableEmoji = true
         Gitea = ""
         XMPP = ""
         Matrix = ""
-        Bilibili = "index"
-        Zhihu = "index"
-        Weibo = "index"
+        Zhihu = ""
+        Weibo = ""
         Email = "ylsccnu@hotmail.com"
         RSS = true
 

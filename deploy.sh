@@ -6,10 +6,10 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo # if using a theme, replace with hugo -t <YOURTHEME>
 
 #cp the public folder
-cp -r public/ ../../public/
+cp -r public/ ../../public/yeliansong.github.io/
 
 # Go To Public folder
-cd ../../public/
+cd ../../public/yeliansong.github.io
 # Add changes to git.
 git add .
 
