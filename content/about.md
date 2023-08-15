@@ -1,39 +1,42 @@
----
-title: "About"
-subtitle: ""
-date: 2019-6-27T21:56:20+08:00
-lastmod: 2019-6-27T21:56:20+08:00
-draft: false
-author: "Liansong"
-authorLink: ""
-description: ""
+> **关于我**
 
-tags: []
-categories: []
+ 🧍：IT从业者，2015年硕士毕业，在杭州工作3年半后来到新加坡。这是我的个人站点，日常喜欢记录工作中的技术积累，也喜欢写写生活中的一些感悟，希望若干年后再翻开这些东西有不一样的感受。  
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
+<br>
 
-featuredImage: ""
-featuredImagePreview: ""
+🌍：目前base 在新加坡。学习工作轨迹有：武汉-杭州-新加坡
 
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
----
+<br>
 
-### 目前情况
+👷：DevOps / SRE 工程师。有3年半的Android native开发经验，目前是从事SRE/DevOps 工作，技术方向是:超大规模集群运维、运维流程自动化、云及微服务相关
+
+------
 
 
 
-### 工作经历
+<br>
 
 
 
-### 教育经历
+> **附自己喜欢的一首词，自勉**
+
+**定风波·莫听穿林打叶声**
+
+**苏轼**
+
+<br>
+
+三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉。已而遂晴，故作此词。
+
+莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
+
+料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。
+
+<br>
+
+> **交个朋友？**
+
+[**📨 Email Me**](mailto:ylsccnu@hotmail.com)
 
 
 
