@@ -9,7 +9,7 @@ hugo # if using a theme, replace with hugo -t <YOURTHEME>
 cp -r public/ ../../public/yeliansong.github.io/
 
 # Go To Public folder
-cd ../../public/yeliansong.github.io
+cd ../../public/yeliansong.github.io/
 # Add changes to git.
 git add .
 
