@@ -6,7 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo --cleanDestinationDir
 
 # Sync the generated site and delete files that no longer exist locally.
-rsync -av --delete public/ ../../hugo_public/yeliansong.github.io/
+rsync -av --delete --exclude='.git/' public/ ../../hugo_public/yeliansong.github.io/
 
 # Go To Public folder
 cd ../../hugo_public/yeliansong.github.io/
