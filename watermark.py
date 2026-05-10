@@ -17,9 +17,9 @@ def watermark(post_name):
             print(files)
         font = ImageFont.truetype('ariali.ttf', max(30, int(im.size[1] / 20)))
         draw = ImageDraw.Draw(im)
-        # draw.text((im.size[0] / 2, im.size[1] / 2), u'@zz2summer', fill=(0, 0, 0), font=font)
-        text_size_x, text_size_y = draw.textsize(u'@zz2summer', font=font)
-        draw.text((im.size[0] - text_size_x, im.size[1] - text_size_y), u'@zz2summer', fill=(1, 1, 1, 50), font=font)
+        watermark_text = u'@yeliansong'
+        text_size_x, text_size_y = draw.textsize(watermark_text, font=font)
+        draw.text((im.size[0] - text_size_x, im.size[1] - text_size_y), watermark_text, fill=(1, 1, 1, 50), font=font)
         im.save(files)
 
 

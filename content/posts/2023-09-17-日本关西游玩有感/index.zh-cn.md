@@ -2,13 +2,13 @@
 title: 日本关西游玩有感   # 标题
 subtitle: 生活感悟
 date: 2023-09-17T18:45:00+08:00
-lastmod: 2023-09-17T18:45:00+08:0
+lastmod: 2023-09-17T18:45:00+08:00
 draft: false
 author: Liansong
 authorLink: ""
 description: "日本关西游玩感悟"
 
-tags: [生活感悟，旅行]
+tags: [生活感悟, 旅行]
 categories: [生活感悟]
 
 hiddenFromHomePage: false

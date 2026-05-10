@@ -2,11 +2,11 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project.
-hugo # if using a theme, replace with hugo -t <YOURTHEME>
+# Build the project and remove stale generated files.
+hugo --cleanDestinationDir
 
-#cp the public folder
-cp -r public/* ../../hugo_public/yeliansong.github.io/
+# Sync the generated site and delete files that no longer exist locally.
+rsync -av --delete public/ ../../hugo_public/yeliansong.github.io/
 
 # Go To Public folder
 cd ../../hugo_public/yeliansong.github.io/
