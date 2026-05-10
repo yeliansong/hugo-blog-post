@@ -39,6 +39,14 @@ enableEmoji = true
     # Menu config
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "start"
+        pre = ""
+        post = ""
+        name = "Start"
+        url = "/start/"
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
         identifier = "posts"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
@@ -48,7 +56,7 @@ enableEmoji = true
         url = "/posts/"
         # title will be shown when you hover on this menu link.
         title = ""
-        weight = 1
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "tags"
         pre = ""
@@ -56,7 +64,7 @@ enableEmoji = true
         name = "Tags"
         url = "/tags/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "categories"
         pre = ""
@@ -64,7 +72,7 @@ enableEmoji = true
         name = "Categories"
         url = "/categories/"
         title = ""
-        weight = 3
+        weight = 4
       #[[languages.en.menu.main]]
       # identifier = "documentation"
       #  pre = ""
@@ -93,7 +101,7 @@ enableEmoji = true
       # site description
       description = "About LoveIt Theme"
       # site keywords
-      keywords = ["Theme", "Hugo"]
+      keywords = ["SRE", "DevOps", "Kubernetes", "Cloud Native", "Singapore"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -241,6 +249,14 @@ enableEmoji = true
     # 菜单配置
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
+        identifier = "start"
+        pre = ""
+        post = ""
+        name = "开始阅读"
+        url = "/start/"
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
         identifier = "posts"
         # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
         pre = ""
@@ -249,7 +265,7 @@ enableEmoji = true
         name = "所有文章"
         url = "/posts/"
         title = ""
-        weight = 1
+        weight = 2
       [[languages.zh-cn.menu.main]]
         identifier = "tags"
         pre = ""
@@ -257,7 +273,7 @@ enableEmoji = true
         name = "标签"
         url = "/tags/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.zh-cn.menu.main]]
         identifier = "categories"
         pre = ""
@@ -265,7 +281,7 @@ enableEmoji = true
         name = "分类"
         url = "/categories/"
         title = ""
-        weight = 3
+        weight = 4
       #[[languages.zh-cn.menu.main]]
       #  identifier = "documentation"
       #  pre = ""
@@ -293,7 +309,7 @@ enableEmoji = true
       # 网站描述
       description = "LIANSONG'S Blog"
       # 网站关键词
-      keywords = ["Theme", "Hugo", "LIANSONG"]
+      keywords = ["SRE", "DevOps", "Kubernetes", "云原生", "新加坡生活", "LIANSONG"]
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
