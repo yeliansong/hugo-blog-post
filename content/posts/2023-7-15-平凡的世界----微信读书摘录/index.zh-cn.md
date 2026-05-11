@@ -1,7 +1,7 @@
 ---
 title: 平凡的世界 -- 微信读书摘录   # 标题
 subtitle: 微信读书摘录
-date: 2023-07-15T015:21:00+08:00
+date: 2023-07-15T15:21:00+08:00
 lastmod: 2023-07-15T15:21:00+08:00
 draft: false
 author: Liansong

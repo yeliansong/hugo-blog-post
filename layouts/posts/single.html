@@ -70,7 +70,7 @@
         {{- /* Featured image */ -}}
         {{- $image := $params.featuredimage -}}
         {{- with .Resources.GetMatch "featured-image" -}}
-            {{- $image = .RelPermalink -}}
+            {{- $image = (.Fit "1400x900 webp q82").RelPermalink -}}
         {{- end -}}
         {{- with $image -}}
             <div class="featured-image">
